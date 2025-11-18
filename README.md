@@ -8,7 +8,7 @@ However, many app icons are _creative_ and do not fit well into this format. Exa
 
 Users of these apps are faced with a choice: either wait for the developers to update their apps with new Tahoe-compatible icons, or restore the appearance of the original icons, as seen in Sequoia or older versions of macOS.
 
-IconLiberator is a small Bash script that does that. To use the script just open the Terminal and run:
+IconLiberator is a small Bash script that can do that. To use it, clone the repository or download the ZIP file, open the Terminal, `cd` to the directory of the repository, and then run:
 
 ```
 ./icon_liberator.sh -f applist.txt
@@ -37,7 +37,7 @@ The script automatically finds the icon to use when its name corresponds to that
 
 Unfortunately, as can easily be seen by inspecting the list, in many cases the icon names differ from the app names and must be found manually. This involves right-clicking on the application, selecting `Show Package Contents`, opening the `Contents` folder, then the `Resources` folder, and finding the correct icon file (which has a `.icns` extension). 
 
-Please note that some apps can have several icon files within the `Resources` folder, so it may be necessary to pay some attention to finding the right icon..
+Please note that some apps can have several icon files within the `Resources` folder, so it may be necessary to pay some attention to finding the right icon.
 
 
 ### Caveats
@@ -46,3 +46,9 @@ Please note that some apps can have several icon files within the `Resources` fo
 
 - As previously mentioned, al changes can be reverted by running the script with the `-u` switch.
 
+- The associated `fileicon` command does the heavy work and shoud be normally left as-is. However, Homebrew users can install `fileicon` with `brew install fileicon` and safey delete the downloaded version.
+
+
+#### Acknowledgements
+
+This project gratefully depends on the `fileicon` macOS CLI for managing custom icons for files and folders, by Michael Klement,  [https://github.com/mklement0/fileicon](https://github.com/mklement0/fileicon).
