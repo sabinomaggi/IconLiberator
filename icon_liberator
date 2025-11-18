@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: icon_liberator.sh -f /path/to/applist [-u] [-h]
+# Usage: icon_liberator -f /path/to/applist [-u] [-h]
 
 # exit on error (we don't want this here)
 # set -e
@@ -16,8 +16,8 @@ UNDO=""
 WORK=`dirname pwd`
 LOG=$WORK/log_`date "+%Y%m%d-%H%M%S"`.txt
 
-HELP="icon_liberator.sh
- usage: icon_liberator.sh -f /path/to/applist [-u] [-h]
+HELP="icon_liberator
+ usage: icon_liberator -f /path/to/applist [-u] [-h]
  
  mandatory argument:
    -f /path/to/applist   list of apps to be fixed
