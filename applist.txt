@@ -5,9 +5,7 @@
 
 # Application name,     Icon name
 Chrome Remote Desktop Host Uninstaller,     remoting_uninstaller.icns
-FortClient,             electron.icns
-FortClientUninstaller,  Uninstall_icon.icns
-OpenVPNConnect,         icon.icns
+OpenVPN Connect/OpenVPN Connect,            icon.icns
 Tunnelblick
 nnALT,                  Notality.icns
 Zotero
@@ -26,7 +24,6 @@ Raspberry Pi Imager,    rpi-imager.icns
 
 Gemini 2,               AppIcon.icns
 HandBrake,              HandBrake.icns
-krita,                  krita_SRCS.icns
 Keyboard Maestro,       kmicon.icns
 
 
