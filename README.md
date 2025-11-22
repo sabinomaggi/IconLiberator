@@ -1,6 +1,6 @@
 # IconLib
 
-## A bash script to restore the macOS application icons clipped by the new "squircle" mask
+## A bash script to restore the macOS application icons clipped by the new "squircle" shape
 
 
 * [Introduction](#introduction)
@@ -41,7 +41,7 @@ Even when developers update their applications with new, Tahoe-compatible icons,
 ### Homebrew (recommended)
 
 ```
-brew install iconlib
+brew install sabinomaggi/sm/iconlib
 ```
 
 Homebrew will also install the `fileicon` CLI,  which actually manipulates the icon resources.
