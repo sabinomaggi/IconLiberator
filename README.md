@@ -16,7 +16,6 @@
 * [Notes](#notes)
 * [Acknowledgements](#acknowledgements)
 
-[TOC]
 
 ## Introduction
 
